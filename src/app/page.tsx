@@ -20,7 +20,7 @@ export default function Home() {
           href="https://yuvraj-links.vercel.app/"
           title="Website"
           desc="Go through v1 of linktree"
-          className="bg-black dark:border dark:border-zinc-800"
+          className="bg-black dark:border md:dark:border-zinc-600 md:dark:border-zinc-800"
         >
           <FaCompass size={50} className="text-zinc-400" />
         </Card>

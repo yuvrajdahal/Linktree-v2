@@ -95,7 +95,7 @@ const Card: FC<{
         <div className="flex items-center justify-center">{children}</div>
       </div>
       <a href={href} target="_blank">
-        <div className="mt-2 cursor-pointer text-dark dark:text-light">
+        <div className="mt-2 cursor-pointer text-dark hover:underline dark:text-light">
           {title}
         </div>
       </a>

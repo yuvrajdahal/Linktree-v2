@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={classNames(
-          "h-screen w-screen bg-light dark:bg-dark md:overflow-x-hidden"
+          "h-screen w-screen overflow-x-hidden bg-light dark:bg-dark"
         )}
       >
         <motion.div

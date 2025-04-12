@@ -17,13 +17,22 @@ export default function Home() {
     <main className="mt-8 flex h-full w-full items-center justify-center">
       <div className="grid w-full  gap-8 md:grid-cols-3">
         <Card
-          href="https://yuvraj-links.vercel.app/"
-          title="Website"
-          desc="Go through v1 of linktree"
+          href="https://yuvrajdahal.com.np/"
+          title="Portfolio"
+          desc="Yuvraj's Portfolio"
           className="bg-black dark:border md:dark:border-zinc-600 md:dark:border-zinc-800"
         >
           <FaCompass size={50} className="text-zinc-400" />
         </Card>
+        <Card
+          href="https://yuvraj-links.vercel.app/"
+          title="Link v1"
+          desc="Go through v1 of linktree"
+          className="bg-stone-800 dark:border md:dark:border-zinc-600 md:dark:border-zinc-800"
+        >
+          <FaCompass size={50} className="text-zinc-400" />
+        </Card>
+
         <Card
           href="https://github.com/yuvrajdahal"
           title="Github"
@@ -99,7 +108,7 @@ const Card: FC<{
           {title}
         </div>
       </a>
-      <div className="text-dark dark:text-zinc-700">{desc}</div>
+      <div className="text-dark dark:text-zinc-400">{desc}</div>
     </div>
   );
 };
